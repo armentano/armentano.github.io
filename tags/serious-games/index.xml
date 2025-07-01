@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serious Games on Dr. Marcelo G. Armentano</title>
+    <link>/tags/serious-games/</link>
+    <description>Recent content in Serious Games on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/serious-games/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building SYMLOG profiles with an online collaborative game</title>
+      <link>/publication/2019-symlog-profiles-online-collaborative-game/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019-symlog-profiles-online-collaborative-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De  &#39;discusión táctica&#39;  en  juego de colaboración a &#39;conductas&#39;: enfoque de clasificación en etapas</title>
+      <link>/publication/2018-iberamia/</link>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-iberamia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Users&#39; Collaborative Behavior With a Serious Game</title>
+      <link>/publication/2018-collaborative-behavior-serious-game/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-collaborative-behavior-serious-game/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

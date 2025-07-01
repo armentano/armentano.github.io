@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crowdsensing on Dr. Marcelo G. Armentano</title>
+    <link>/tags/crowdsensing/</link>
+    <description>Recent content in Crowdsensing on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/crowdsensing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mobile App for Tracking Bus Locations and Estimating Wait Times</title>
+      <link>/thesis/2025-miccio/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2025-miccio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interest-Based Group Recommender System for Tourism</title>
+      <link>/thesis/2024-freiberger/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2024-freiberger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile Application for Navigation and Time Estimation in Public Bus Transportation</title>
+      <link>/thesis/2021-bianco-longhi/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2021-bianco-longhi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detection of Places Visited by the User Based on WiFi Access Points Recorded by Their Mobile Devices</title>
+      <link>/thesis/2020-setzes-setzes/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2020-setzes-setzes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Assistant for Parking in Urban Areas</title>
+      <link>/thesis/2020-tangorra/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2020-tangorra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intelligent urban mobility through crowdsensing</title>
+      <link>/project/2020-crowdsensing-urban-mobility/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2020-crowdsensing-urban-mobility/</guid>
+      <description>&lt;p&gt;Crowdsensing or mobile crowdsensing is a technique that uses mobile devices to efficiently collect data and enables the development of numerous large-scale applications.&lt;/p&gt;
+&lt;p&gt;Human participation is one of its most important features, and human mobility offers unprecedented opportunities for both data collection and transmission.&lt;/p&gt;
+&lt;p&gt;The collected data is then used to extract information that allows for measuring, mapping, visualizing, estimating, or inferring any process of common interest.&lt;/p&gt;
+&lt;p&gt;This technique is particularly useful for addressing issues related to urban mobility, one of the major challenges cities face today.&lt;/p&gt;
+&lt;p&gt;In this context, the project tackles various urban mobility problems from the perspective of crowdsensing.&lt;/p&gt;
+&lt;p&gt;In short, it aims to generate value-added information from data sensed about the individual mobility of citizens, with the goal of improving collective mobility.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analysis and Traceability of the Spread of the COVID-19 Virus Through Mobile Devices</title>
+      <link>/project/2019-covid-19/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2019-covid-19/</guid>
+      <description>&lt;p&gt;The spread of any infectious disease, such as COVID-19, which currently affects us, mainly occurs through the transmission of an infectious agent via individual mobility. Therefore, knowing the places where an infected individual has traveled and stayed is of utmost importance to analyze which other individuals or groups may have been exposed to contagion and to develop strategies and optimize available resources.&lt;/p&gt;
+&lt;p&gt;Crowdsensing, or mobile crowdsensing, is a technique that uses a group of individuals with mobile devices capable of sensing and/or collectively computing data to extract information that allows measuring, mapping, visualizing, estimating, or inferring any process of common interest. This technique falls within the paradigms of geo-crowdsourcing and Volunteered Geographic Information (VGI).&lt;/p&gt;
+&lt;p&gt;The general objective of this project is to utilize crowdsensing techniques to design and develop a digital platform that can aid decision-making in the management of the COVID-19 pandemic.&lt;/p&gt;
+&lt;p&gt;The proposed digital platform focuses on the use of mobile devices by citizens. Modern mobile devices are equipped with sensors that allow them to record and infer various aspects of the user&amp;rsquo;s context, including their geographic location. A mobile device can determine its location not only through GPS but also via nearby WiFi access points in a process called WiFi Positioning Systems (WPS). This process consists of triangulating the device&amp;rsquo;s location based on the positions of nearby WiFi access points. While GPS-based location tracking works best outdoors and in open spaces, WPS-based location tracking is more effective indoors, where there are more WiFi access points available for triangulation.&lt;/p&gt;
+&lt;p&gt;By appropriately utilizing both localization mechanisms, it is possible to determine a user’s location almost anywhere and at any time. Additionally, using other device sensors, such as the accelerometer, it is possible to detect whether the device is in motion or stationary. This allows for adjusting the frequency of location tracking (for example, it is unnecessary to track the device when it is stationary), thus reducing GPS/WPS usage and minimizing battery consumption.&lt;/p&gt;
+&lt;p&gt;The proposed project is built upon a prototype mobile application developed by the research team, aimed at non-intrusively recording a user’s physical activity and geographic location throughout their daily routine. Based on this data, the app detects the places visited by the user and the paths taken to move from one place to another. The information collected by the application on various citizens’ mobile devices would form the foundation of the proposed digital platform, which would enable the analysis and control of a pandemic like COVID-19, where citizen mobility is a key factor.&lt;/p&gt;
+&lt;p&gt;The application could not only provide information about citizen mobility but also establish communication channels with users (either a general information channel or a specific channel for an individual) and allow citizens to actively generate useful data or information through reports.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

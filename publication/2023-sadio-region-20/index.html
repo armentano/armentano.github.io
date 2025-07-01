@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5BS8WK89Z2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5BS8WK89Z2');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="theme-name" content="academia-hugo"/>
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marcelo G. Armentano">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="En el siguiente artículo se describe la experiencia conjunta realizada para el desarrollo de un prototipo de asistente inteligente que acercará a vendedores y compradores en un portal de ventas online. Originalmente el proyecto buscaba realizar una caracterización inteligente del usuario con sus preferencias a corto plazo y las características geoespaciales que lo definan. El proyecto buscó brindar alertas inteligentes sobre artículos de potencial interés para los usuarios, siempre considerando que es crucial que la información sea adquirida de una forma no intrusiva e inteligente. Con la sinergia alcanzada entre las partes a partir del desarrollo conjunto de actividades, se fueron apreciando muchas ventanas de oportunidades que surgieron con el conocimiento del análisis del portal por parte de los investigadores, y con el conocimiento de las técnicas de Inteligencia Artificial por parte de la empresa. Durante el trabajo realizado en conjunto se fueron adaptando los distintos objetivos a fin de poder abarcar las necesidades efectivas de la empresa, logrando una colaboración exitosa entre las partes.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/publication/2023-sadio-region-20/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#fc6f5c">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.b246554d075350d61b44c126dfbcbe05.css">
+
+  
+
+  
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/publication/2023-sadio-region-20/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Dr. Marcelo G. Armentano">
+  <meta property="og:url" content="/publication/2023-sadio-region-20/">
+  <meta property="og:title" content="Un caso de éxito en la colaboración entre empresa e institutos de investigación para la recomendación inteligente de anuncios en un portal de venta online | Dr. Marcelo G. Armentano">
+  <meta property="og:description" content="En el siguiente artículo se describe la experiencia conjunta realizada para el desarrollo de un prototipo de asistente inteligente que acercará a vendedores y compradores en un portal de ventas online. Originalmente el proyecto buscaba realizar una caracterización inteligente del usuario con sus preferencias a corto plazo y las características geoespaciales que lo definan. El proyecto buscó brindar alertas inteligentes sobre artículos de potencial interés para los usuarios, siempre considerando que es crucial que la información sea adquirida de una forma no intrusiva e inteligente. Con la sinergia alcanzada entre las partes a partir del desarrollo conjunto de actividades, se fueron apreciando muchas ventanas de oportunidades que surgieron con el conocimiento del análisis del portal por parte de los investigadores, y con el conocimiento de las técnicas de Inteligencia Artificial por parte de la empresa. Durante el trabajo realizado en conjunto se fueron adaptando los distintos objetivos a fin de poder abarcar las necesidades efectivas de la empresa, logrando una colaboración exitosa entre las partes."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2023-06-23T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2023-06-23T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Un caso de éxito en la colaboración entre empresa e institutos de investigación para la recomendación inteligente de anuncios en un portal de venta online | Dr. Marcelo G. Armentano</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+    
+    <a class="navbar-brand" href="/">Dr. Marcelo G. Armentano</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#thesis"><span>Thesis supervision</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#gallery"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    
+    <div class="article-container py-3">
+      <h1 itemprop="name">Un caso de éxito en la colaboración entre empresa e institutos de investigación para la recomendación inteligente de anuncios en un portal de venta online</h1>
+
+      
+
+      
+      
+
+
+
+<meta content="2023-06-23 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-06-23 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sebastian-vallejos/">Sebastian Vallejos</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/luis-berdun/">Luis Berdun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcelo-g-armentano/">Marcelo G. Armentano</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/silvia-schiaffino/">Silvia Schiaffino</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sandra-gonzalez-cisaro/">Sandra González Císaro</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/oscar-nigro/">Oscar Nigro</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/ignacio-cuesta/">Ignacio Cuesta</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/leonardo-balduzzi/">Leonardo Balduzzi</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>June 2023</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/publication/2023-sadio-region-20/&amp;text=Un%20caso%20de%20%c3%a9xito%20en%20la%20colaboraci%c3%b3n%20entre%20empresa%20e%20institutos%20de%20investigaci%c3%b3n%20para%20la%20recomendaci%c3%b3n%20inteligente%20de%20anuncios%20en%20un%20portal%20de%20venta%20online" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/publication/2023-sadio-region-20/&amp;t=Un%20caso%20de%20%c3%a9xito%20en%20la%20colaboraci%c3%b3n%20entre%20empresa%20e%20institutos%20de%20investigaci%c3%b3n%20para%20la%20recomendaci%c3%b3n%20inteligente%20de%20anuncios%20en%20un%20portal%20de%20venta%20online" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Un%20caso%20de%20%c3%a9xito%20en%20la%20colaboraci%c3%b3n%20entre%20empresa%20e%20institutos%20de%20investigaci%c3%b3n%20para%20la%20recomendaci%c3%b3n%20inteligente%20de%20anuncios%20en%20un%20portal%20de%20venta%20online&amp;body=/publication/2023-sadio-region-20/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/2023-sadio-region-20/&amp;title=Un%20caso%20de%20%c3%a9xito%20en%20la%20colaboraci%c3%b3n%20entre%20empresa%20e%20institutos%20de%20investigaci%c3%b3n%20para%20la%20recomendaci%c3%b3n%20inteligente%20de%20anuncios%20en%20un%20portal%20de%20venta%20online" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Un%20caso%20de%20%c3%a9xito%20en%20la%20colaboraci%c3%b3n%20entre%20empresa%20e%20institutos%20de%20investigaci%c3%b3n%20para%20la%20recomendaci%c3%b3n%20inteligente%20de%20anuncios%20en%20un%20portal%20de%20venta%20online%20/publication/2023-sadio-region-20/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/publication/2023-sadio-region-20/&amp;title=Un%20caso%20de%20%c3%a9xito%20en%20la%20colaboraci%c3%b3n%20entre%20empresa%20e%20institutos%20de%20investigaci%c3%b3n%20para%20la%20recomendaci%c3%b3n%20inteligente%20de%20anuncios%20en%20un%20portal%20de%20venta%20online" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/2023-sadio-region-20/manuscript.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/2023-sadio-region-20/cite.bib">
+  Bibtex
+</button>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-apa-modal"
+        data-filename="/publication/2023-sadio-region-20/cite.apa">
+  APA
+</button>
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/2020-sadosky-region-global/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.24215/15146774e027" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+</div>
+
+
+      
+      
+    </div>
+  </div>
+</div>
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">En el siguiente artículo se describe la experiencia conjunta realizada para el desarrollo de un prototipo de asistente inteligente que acercará a vendedores y compradores en un portal de ventas online. Originalmente el proyecto buscaba realizar una caracterización inteligente del usuario con sus preferencias a corto plazo y las características geoespaciales que lo definan. El proyecto buscó brindar alertas inteligentes sobre artículos de potencial interés para los usuarios, siempre considerando que es crucial que la información sea adquirida de una forma no intrusiva e inteligente. Con la sinergia alcanzada entre las partes a partir del desarrollo conjunto de actividades, se fueron apreciando muchas ventanas de oportunidades que surgieron con el conocimiento del análisis del portal por parte de los investigadores, y con el conocimiento de las técnicas de Inteligencia Artificial por parte de la empresa. Durante el trabajo realizado en conjunto se fueron adaptando los distintos objetivos a fin de poder abarcar las necesidades efectivas de la empresa, logrando una colaboración exitosa entre las partes.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Electronic Journal of Informatics and Operations Research</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/classification/">Classification</a>
+  
+  <a class="badge badge-light" href="/tags/e-commerce/">e-commerce</a>
+  
+  <a class="badge badge-light" href="/tags/nlp/">NLP</a>
+  
+  <a class="badge badge-light" href="/tags/p2p-marketplace/">P2P marketplace</a>
+  
+</div>
+
+
+    
+
+  </div>
+</div>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//themefisher-template.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academia.min.64a1fdbe7646fec4e8639e28b41fe8a1.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        
+        <p class="mb-0">
+          Copyright © 2025 &middot; 
+          Powered by
+          <a href="https://gethugothemes.com" target="_blank" rel="noopener">Gethugothemes</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right mb-0">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/mg_armentano" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://instagram.com/marcelo.armentano" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Bibtex</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

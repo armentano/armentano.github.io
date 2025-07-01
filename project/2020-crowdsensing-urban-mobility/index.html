@@ -1,0 +1,2061 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5BS8WK89Z2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5BS8WK89Z2');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="theme-name" content="academia-hugo"/>
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marcelo G. Armentano">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="This project aims to generate value-added information from data sensed about the individual mobility of citizens, with the goal of improving collective mobility.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/project/2020-crowdsensing-urban-mobility/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#fc6f5c">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.b246554d075350d61b44c126dfbcbe05.css">
+
+  
+
+  
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/project/2020-crowdsensing-urban-mobility/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Dr. Marcelo G. Armentano">
+  <meta property="og:url" content="/project/2020-crowdsensing-urban-mobility/">
+  <meta property="og:title" content="Intelligent urban mobility through crowdsensing | Dr. Marcelo G. Armentano">
+  <meta property="og:description" content="This project aims to generate value-added information from data sensed about the individual mobility of citizens, with the goal of improving collective mobility."><meta property="og:image" content="/project/2020-crowdsensing-urban-mobility/featured.jpg">
+  <meta property="twitter:image" content="/project/2020-crowdsensing-urban-mobility/featured.jpg"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2020-04-01T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2020-04-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Intelligent urban mobility through crowdsensing | Dr. Marcelo G. Armentano</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+    
+    <a class="navbar-brand" href="/">Dr. Marcelo G. Armentano</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#thesis"><span>Thesis supervision</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#gallery"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article article-project py-5" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container split-header">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+        <img class="img-fluid w-100" src="/project/2020-crowdsensing-urban-mobility/featured_hu_660c206d41adcb4b.jpg" itemprop="image" alt="">
+        
+    </div>
+    <div class="col-lg-8">
+      <h1 itemprop="name">Intelligent urban mobility through crowdsensing</h1>
+
+      
+
+      
+
+
+
+<meta content="2020-04-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-04-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Apr 1, 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/project/2020-crowdsensing-urban-mobility/&amp;text=Intelligent%20urban%20mobility%20through%20crowdsensing" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/project/2020-crowdsensing-urban-mobility/&amp;t=Intelligent%20urban%20mobility%20through%20crowdsensing" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Intelligent%20urban%20mobility%20through%20crowdsensing&amp;body=/project/2020-crowdsensing-urban-mobility/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/project/2020-crowdsensing-urban-mobility/&amp;title=Intelligent%20urban%20mobility%20through%20crowdsensing" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Intelligent%20urban%20mobility%20through%20crowdsensing%20/project/2020-crowdsensing-urban-mobility/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/project/2020-crowdsensing-urban-mobility/&amp;title=Intelligent%20urban%20mobility%20through%20crowdsensing" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+
+  <div class="article-container">
+    
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/crowdsensing/">Crowdsensing</a>
+  
+  <a class="badge badge-light" href="/tags/urban-computing/">Urban Computing</a>
+  
+  <a class="badge badge-light" href="/tags/geo-referenced-social-networks/">Geo-referenced Social Networks</a>
+  
+  <a class="badge badge-light" href="/tags/intelligent-transportation-systems/">Intelligent Transportation Systems</a>
+  
+  <a class="badge badge-light" href="/tags/mobile-devices/">Mobile Devices</a>
+  
+  <a class="badge badge-light" href="/tags/user-modeling/">User Modeling</a>
+  
+</div>
+
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Crowdsensing or mobile crowdsensing is a technique that uses mobile devices to efficiently collect data and enables the development of numerous large-scale applications.</p>
+<p>Human participation is one of its most important features, and human mobility offers unprecedented opportunities for both data collection and transmission.</p>
+<p>The collected data is then used to extract information that allows for measuring, mapping, visualizing, estimating, or inferring any process of common interest.</p>
+<p>This technique is particularly useful for addressing issues related to urban mobility, one of the major challenges cities face today.</p>
+<p>In this context, the project tackles various urban mobility problems from the perspective of crowdsensing.</p>
+<p>In short, it aims to generate value-added information from data sensed about the individual mobility of citizens, with the goal of improving collective mobility.</p>
+
+    </div>
+    
+
+    
+    
+    <h2>Director</h2>
+    <div class="people-list">
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person" >
+    
+      
+      <img class="portrait mr-3" src="/authors/marcelo-g-armentano/avatar_hu_667dc0438110dfa1.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/">Marcelo G. Armentano</a></h5>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/mg_armentano" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=gk2vmEcAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.researchgate.net/profile/Marcelo-G-Armentano" target="_blank" rel="noopener">
+              <i class="ai ai-researchgate"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/marcelo-g-armentano-44369014/" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0002-9172-9061" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+    </div>
+    
+
+    
+    <h2>Researchers</h2>
+    <div class="people-list">
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person" >
+    
+      
+      <img class="portrait mr-3" src="/authors/luis-berdun/avatar_hu_4a595ed82c86432a.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/luis-berdun/">Luis Berdun</a></h5>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/berdun_luis" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com.ar/citations?user=dxJbRW0AAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/luis-sebastian-berdun-b5564019/" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0002-8006-8691" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person" >
+    
+      
+      <img class="portrait mr-3" src="/authors/ariel-monteserin/avatar_hu_6339df6a16c9bf8.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/ariel-monteserin/">Ariel Monteserin</a></h5>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=lE3O1RcAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.researchgate.net/profile/Ariel-Monteserin" target="_blank" rel="noopener">
+              <i class="ai ai-researchgate"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/ariel-monteserin-1094361b0/" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0003-0876-2432" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person" >
+    
+      
+      <img class="portrait mr-3" src="/authors/sebastian-vallejos/avatar_hu_4ebddb9557870a51.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/sebastian-vallejos/">Sebastian Vallejos</a></h5>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com.ar/citations?user=nP4sR_8AAAAJ&amp;hl=es" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.researchgate.net/profile/Sebastian-Vallejos" target="_blank" rel="noopener">
+              <i class="ai ai-researchgate"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/sebasti%C3%A1n-vallejos-85365876/" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0001-5375-4373" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person" >
+    
+      
+      <img class="portrait mr-3" src="/authors/alfredo-teyseyre/avatar_hu_8688872aecd7ac35.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/alfredo-teyseyre/">Alfredo Teyseyre</a></h5>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com.ar/citations?user=vw__rf0AAAAJ&amp;hl=es" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.researchgate.net/profile/Alfredo-Teyseyre" target="_blank" rel="noopener">
+              <i class="ai ai-researchgate"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/alfredo-teyseyre-2759a225" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0003-3289-5489" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person" >
+    
+      
+      <img class="portrait mr-3" src="/authors/sandra-gonzalez-cisaro/avatar_hu_138c88f5fed5db6a.png" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/sandra-gonzalez-cisaro/">Sandra González Císaro</a></h5>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=5TtThdEAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0002-9314-098X" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+    </div>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    <h2>Publications</h2>
+    <div class="row justify-content-center">
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/2025-prediction-next-visit-eswa/" itemprop="url">Prediction of the next user location using personal tracking data</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2025-05-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2025-05-15 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sebastian-vallejos/">Sebastian Vallejos</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/luis-berdun/">Luis Berdun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/ariel-monteserin/">Ariel Monteserin</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/daniela-godoy/">Daniela Godoy</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcelo-g-armentano/">Marcelo G. Armentano</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/silvia-schiaffino/">Silvia Schiaffino</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>May 2025</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Expert Systems with Applications
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      The use of mobile devices for the study of urban mobility has attracted the attention of the scientific community in the last years. In this work, we address the problem of predicting the user’s next destination given the user’s mobility profile, i.e. her visit history and the set of places she visited during that time. To predict the next visit, our approach relies on a set of predictors, each of which analyzes different aspects of the user’s daily mobility. The output of each predictor consists of a list of places along with the probability of each place being the next destination. The approach combines the output of each predictor into a single one using weights based on the cumulative precision of its previous predictions. Once the user arrives at her destination the proposed approach adapts the set of predictors for future estimations. The predictors in this work were designed so that their training and use have a low computational cost, adapting to the available resources on mobile devices. The experiments carried out over two datasets (Nokia MDC dataset with 52 users and 129,097 visits to 12,869 different places, and a private dataset with 76 users with more than 30 registered days and 47,933 stays) yielded promising results, enhancing performance for 75.8 % of users with an average accuracy of 49.2 % and F1weighted of 42.6 % and an average use of only 48 Megabytes of RAM.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/2025-prediction-next-visit-eswa/manuscript.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2025-prediction-next-visit-eswa/cite.bib">
+  Bibtex
+</button>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-apa-modal"
+        data-filename="/publication/2025-prediction-next-visit-eswa/cite.apa">
+  APA
+</button>
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2020-crowdsensing-urban-mobility/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.eswa.2025.128125" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+  </div>
+</div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/2023-lightweight-approach/" itemprop="url">A Lightweight Approach for Building User Mobility Profiles</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2023-12-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-12-27 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sebastian-vallejos/">Sebastian Vallejos</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/luis-berdun/">Luis Berdun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcelo-g-armentano/">Marcelo G. Armentano</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/silvia-schiaffino/">Silvia Schiaffino</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/daniela-godoy/">Daniela Godoy</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>December 2023</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      ISPRS Int. J. Geo-Inf
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Data captured by mobile devices enable us, among other things, learn the places where users go, identify their home and workplace, the places they usually visit (e.g., supermarket, gym, etc.), the different paths they take to move from one place to another and even their routines. In summary, with this information, it is possible to learn a user mobility profile. In this work, we propose a lightweight approach for building mobility profiles from data collected with mobile devices. The mobility profiles of a user consist of the places visited, the visit history and the travel paths. Our approach aims to solve some of the challenges and limitations identified in the literature. Particularly, it considers geographic information to identify certain kinds of places, such as open spaces, big places and small places, that are hard to distinguish with existing approaches. We use different sensors and time frequencies to collect data in order to optimize battery consumption and maximize precision. Finally, it executes entirely on the mobile devices, avoiding the exposure of sensitive user information and then preserving user privacy. The proposal was evaluated in the context of the real usage of the developed prototype applications in two cities of Argentina. The results obtained with our approach outperformed other approaches in the literature, both in precision and recall.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/2023-lightweight-approach/manuscript.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-lightweight-approach/cite.bib">
+  Bibtex
+</button>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-apa-modal"
+        data-filename="/publication/2023-lightweight-approach/cite.apa">
+  APA
+</button>
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2020-crowdsensing-urban-mobility/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3390/ijgi13010011" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+  </div>
+</div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/2022-predicting-sedentary-behavior/" itemprop="url">Predicting future sedentary behaviour using wearable and mobile devices</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2023-12-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-12-27 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/martin-santillan-cooper/">Martin Santillan Cooper</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcelo-g-armentano/">Marcelo G. Armentano</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>December 2023</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Information Processing &amp; Management
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Sedentarism is a common problem that can affect human health and wellbeing. Predicting sedentary behaviour is an emerging area that can benefit from data collected from sensors available in ubiquitous devices, such as wearables and smartphones. In this paper, we present an approach aiming at predicting the sedentary behaviour of a user from data collected from sensors installed in wearable/mobile devices. We compare personal and impersonal models using a real-life dataset consisting of sensing data of 48 users during 10 weeks. We found that impersonal models using Deep Neural Networks were able to accurately predict the subject&rsquo;s future sedentary behaviour.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/2022-predicting-sedentary-behavior/manuscript.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-predicting-sedentary-behavior/cite.bib">
+  Bibtex
+</button>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-apa-modal"
+        data-filename="/publication/2022-predicting-sedentary-behavior/cite.apa">
+  APA
+</button>
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2020-crowdsensing-urban-mobility/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.ipm.2022.103104" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+  </div>
+</div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/2021-mining-social-networks-traffic-incidents/" itemprop="url">Mining Social Networks to Detect Traffic Incidents</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2021-02-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2021-02-24 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sebastian-vallejos/">Sebastian Vallejos</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/diego-alonso/">Diego Alonso</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/brian-caimmi/">Brian Caimmi</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/luis-berdun/">Luis Berdun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcelo-g-armentano/">Marcelo G. Armentano</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/alvaro-soria/">Alvaro Soria</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>February 2021</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Information Systems Frontiers
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Social networks are usually used by citizens to report or complain about traffic incidents that affect their daily mobility. Automatically finding traffic-related reports and extracting useful information from them is not a trivial task, due to the informal language used in social networks, to the lack of geographic metadata, and to the large amount of non traffic-related publications. In this article, we address this problem by combining Machine Learning and Natural Language Processing techniques. Our approach (a) filters publications that report traffic incidents in social networks, (b) extracts geographic information from the textual content of the publications, and (c) provides a broadcasting service that clusters all the reports of the same incident. We compared the performance of our approach with state of the art approaches and with a popular traffic-specific social network, obtaining promising results.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/2021-mining-social-networks-traffic-incidents/manuscript.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2021-mining-social-networks-traffic-incidents/cite.bib">
+  Bibtex
+</button>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-apa-modal"
+        data-filename="/publication/2021-mining-social-networks-traffic-incidents/cite.apa">
+  APA
+</button>
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2020-crowdsensing-urban-mobility/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/s10796-020-09994-3" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+  </div>
+</div>
+      
+      
+      
+    </div>
+
+    
+    
+    
+    </div>
+
+
+  </div>
+</article>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//themefisher-template.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academia.min.64a1fdbe7646fec4e8639e28b41fe8a1.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        
+        <p class="mb-0">
+          Copyright © 2025 &middot; 
+          Powered by
+          <a href="https://gethugothemes.com" target="_blank" rel="noopener">Gethugothemes</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right mb-0">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/mg_armentano" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://instagram.com/marcelo.armentano" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Bibtex</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

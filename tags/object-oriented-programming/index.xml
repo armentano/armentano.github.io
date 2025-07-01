@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Object-Oriented Programming on Dr. Marcelo G. Armentano</title>
+    <link>/tags/object-oriented-programming/</link>
+    <description>Recent content in Object-Oriented Programming on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/object-oriented-programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Soploon: A virtual assistant to help teachers to detect object-oriented errors in students’ source codes</title>
+      <link>/publication/2018-soploon/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-soploon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A framework for attaching personal assistants to existing applications</title>
+      <link>/publication/2009-attaching-personal-agents/</link>
+      <pubDate>Tue, 01 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2009-attaching-personal-agents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Connecting web applications with interface agents</title>
+      <link>/publication/2004-connecting-web-applications/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2004-connecting-web-applications/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

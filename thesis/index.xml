@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theses on Dr. Marcelo G. Armentano</title>
+    <link>/thesis/</link>
+    <description>Recent content in Theses on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 03 Jul 2025 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/thesis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mobile App for Tracking Bus Locations and Estimating Wait Times</title>
+      <link>/thesis/2025-miccio/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2025-miccio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interest-Based Group Recommender System for Tourism</title>
+      <link>/thesis/2024-freiberger/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2024-freiberger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HelpMePublish - A Support Tool for Selecting Scientific Journals</title>
+      <link>/thesis/2022-elizalde-leiva/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2022-elizalde-leiva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sedentary Behavior Prediction Based on Lifelogging Data Analysis</title>
+      <link>/thesis/2021-santillan/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2021-santillan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile Application for Navigation and Time Estimation in Public Bus Transportation</title>
+      <link>/thesis/2021-bianco-longhi/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2021-bianco-longhi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detection of Places Visited by the User Based on WiFi Access Points Recorded by Their Mobile Devices</title>
+      <link>/thesis/2020-setzes-setzes/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2020-setzes-setzes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bitcoin Value Trend Detection Approach Based on the Observation of Social Media Impact</title>
+      <link>/thesis/2020-ojeda/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2020-ojeda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Assistant for Parking in Urban Areas</title>
+      <link>/thesis/2020-tangorra/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2020-tangorra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intelligent Assistance for Inferring User Roles in Computer-Supported Collaborative Work</title>
+      <link>/thesis/2018-dachilli-colacci/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2018-dachilli-colacci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Approach for the Automatic Detection of Flaws in Argument Construction</title>
+      <link>/thesis/2018-arbiza-gareis/</link>
+      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2018-arbiza-gareis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comprehensive Tool for Sentiment Analysis on Social Media</title>
+      <link>/thesis/2018-mastrangelo/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2018-mastrangelo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

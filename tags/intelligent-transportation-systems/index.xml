@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intelligent Transportation Systems on Dr. Marcelo G. Armentano</title>
+    <link>/tags/intelligent-transportation-systems/</link>
+    <description>Recent content in Intelligent Transportation Systems on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/intelligent-transportation-systems/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prediction of the next user location using personal tracking data</title>
+      <link>/publication/2025-prediction-next-visit-eswa/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2025-prediction-next-visit-eswa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile App for Tracking Bus Locations and Estimating Wait Times</title>
+      <link>/thesis/2025-miccio/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2025-miccio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interest-Based Group Recommender System for Tourism</title>
+      <link>/thesis/2024-freiberger/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2024-freiberger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Lightweight Approach for Building User Mobility Profiles</title>
+      <link>/publication/2023-lightweight-approach/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2023-lightweight-approach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile Application for Navigation and Time Estimation in Public Bus Transportation</title>
+      <link>/thesis/2021-bianco-longhi/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2021-bianco-longhi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detection of Places Visited by the User Based on WiFi Access Points Recorded by Their Mobile Devices</title>
+      <link>/thesis/2020-setzes-setzes/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2020-setzes-setzes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Assistant for Parking in Urban Areas</title>
+      <link>/thesis/2020-tangorra/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2020-tangorra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intelligent urban mobility through crowdsensing</title>
+      <link>/project/2020-crowdsensing-urban-mobility/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2020-crowdsensing-urban-mobility/</guid>
+      <description>&lt;p&gt;Crowdsensing or mobile crowdsensing is a technique that uses mobile devices to efficiently collect data and enables the development of numerous large-scale applications.&lt;/p&gt;
+&lt;p&gt;Human participation is one of its most important features, and human mobility offers unprecedented opportunities for both data collection and transmission.&lt;/p&gt;
+&lt;p&gt;The collected data is then used to extract information that allows for measuring, mapping, visualizing, estimating, or inferring any process of common interest.&lt;/p&gt;
+&lt;p&gt;This technique is particularly useful for addressing issues related to urban mobility, one of the major challenges cities face today.&lt;/p&gt;
+&lt;p&gt;In this context, the project tackles various urban mobility problems from the perspective of crowdsensing.&lt;/p&gt;
+&lt;p&gt;In short, it aims to generate value-added information from data sensed about the individual mobility of citizens, with the goal of improving collective mobility.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

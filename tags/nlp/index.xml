@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLP on Dr. Marcelo G. Armentano</title>
+    <link>/tags/nlp/</link>
+    <description>Recent content in NLP on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automatic classification of products in P2P marketplaces</title>
+      <link>/publication/2024-automatic-classification-products/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2024-automatic-classification-products/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Un caso de éxito en la colaboración entre empresa e institutos de investigación para la recomendación inteligente de anuncios en un portal de venta online</title>
+      <link>/publication/2023-sadio-region-20/</link>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2023-sadio-region-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HelpMePublish - A Support Tool for Selecting Scientific Journals</title>
+      <link>/thesis/2022-elizalde-leiva/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2022-elizalde-leiva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP-Based Faceted Search: Experience in the Development of a Science and Technology Search Engine</title>
+      <link>/publication/2014-nlp-faceted-search/</link>
+      <pubDate>Sun, 11 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2014-nlp-faceted-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Followee recommendation based on text analysis of micro-blogging activity</title>
+      <link>/publication/2013-followee-recommendation-information-systems/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2013-followee-recommendation-information-systems/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

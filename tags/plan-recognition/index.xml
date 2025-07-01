@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plan Recognition on Dr. Marcelo G. Armentano</title>
+    <link>/tags/plan-recognition/</link>
+    <description>Recent content in Plan Recognition on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Wed, 15 Oct 2003 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/plan-recognition/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intelligent Agents for Distance Learning</title>
+      <link>/publication/2003-intelligent-agents-distance-learning/</link>
+      <pubDate>Wed, 15 Oct 2003 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2003-intelligent-agents-distance-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

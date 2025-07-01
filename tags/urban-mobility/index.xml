@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Urban Mobility on Dr. Marcelo G. Armentano</title>
+    <link>/tags/urban-mobility/</link>
+    <description>Recent content in Urban Mobility on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/urban-mobility/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analysis and Traceability of the Spread of the COVID-19 Virus Through Mobile Devices</title>
+      <link>/project/2019-covid-19/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2019-covid-19/</guid>
+      <description>&lt;p&gt;The spread of any infectious disease, such as COVID-19, which currently affects us, mainly occurs through the transmission of an infectious agent via individual mobility. Therefore, knowing the places where an infected individual has traveled and stayed is of utmost importance to analyze which other individuals or groups may have been exposed to contagion and to develop strategies and optimize available resources.&lt;/p&gt;
+&lt;p&gt;Crowdsensing, or mobile crowdsensing, is a technique that uses a group of individuals with mobile devices capable of sensing and/or collectively computing data to extract information that allows measuring, mapping, visualizing, estimating, or inferring any process of common interest. This technique falls within the paradigms of geo-crowdsourcing and Volunteered Geographic Information (VGI).&lt;/p&gt;
+&lt;p&gt;The general objective of this project is to utilize crowdsensing techniques to design and develop a digital platform that can aid decision-making in the management of the COVID-19 pandemic.&lt;/p&gt;
+&lt;p&gt;The proposed digital platform focuses on the use of mobile devices by citizens. Modern mobile devices are equipped with sensors that allow them to record and infer various aspects of the user&amp;rsquo;s context, including their geographic location. A mobile device can determine its location not only through GPS but also via nearby WiFi access points in a process called WiFi Positioning Systems (WPS). This process consists of triangulating the device&amp;rsquo;s location based on the positions of nearby WiFi access points. While GPS-based location tracking works best outdoors and in open spaces, WPS-based location tracking is more effective indoors, where there are more WiFi access points available for triangulation.&lt;/p&gt;
+&lt;p&gt;By appropriately utilizing both localization mechanisms, it is possible to determine a user’s location almost anywhere and at any time. Additionally, using other device sensors, such as the accelerometer, it is possible to detect whether the device is in motion or stationary. This allows for adjusting the frequency of location tracking (for example, it is unnecessary to track the device when it is stationary), thus reducing GPS/WPS usage and minimizing battery consumption.&lt;/p&gt;
+&lt;p&gt;The proposed project is built upon a prototype mobile application developed by the research team, aimed at non-intrusively recording a user’s physical activity and geographic location throughout their daily routine. Based on this data, the app detects the places visited by the user and the paths taken to move from one place to another. The information collected by the application on various citizens’ mobile devices would form the foundation of the proposed digital platform, which would enable the analysis and control of a pandemic like COVID-19, where citizen mobility is a key factor.&lt;/p&gt;
+&lt;p&gt;The application could not only provide information about citizen mobility but also establish communication channels with users (either a general information channel or a specific channel for an individual) and allow citizens to actively generate useful data or information through reports.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

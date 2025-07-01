@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Modeling on Dr. Marcelo G. Armentano</title>
+    <link>/tags/user-modeling/</link>
+    <description>Recent content in User Modeling on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/user-modeling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prediction of the next user location using personal tracking data</title>
+      <link>/publication/2025-prediction-next-visit-eswa/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2025-prediction-next-visit-eswa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interest-Based Group Recommender System for Tourism</title>
+      <link>/thesis/2024-freiberger/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2024-freiberger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Lightweight Approach for Building User Mobility Profiles</title>
+      <link>/publication/2023-lightweight-approach/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2023-lightweight-approach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting future sedentary behaviour using wearable and mobile devices</title>
+      <link>/publication/2022-predicting-sedentary-behavior/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2022-predicting-sedentary-behavior/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sedentary Behavior Prediction Based on Lifelogging Data Analysis</title>
+      <link>/thesis/2021-santillan/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2021-santillan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intelligent urban mobility through crowdsensing</title>
+      <link>/project/2020-crowdsensing-urban-mobility/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2020-crowdsensing-urban-mobility/</guid>
+      <description>&lt;p&gt;Crowdsensing or mobile crowdsensing is a technique that uses mobile devices to efficiently collect data and enables the development of numerous large-scale applications.&lt;/p&gt;
+&lt;p&gt;Human participation is one of its most important features, and human mobility offers unprecedented opportunities for both data collection and transmission.&lt;/p&gt;
+&lt;p&gt;The collected data is then used to extract information that allows for measuring, mapping, visualizing, estimating, or inferring any process of common interest.&lt;/p&gt;
+&lt;p&gt;This technique is particularly useful for addressing issues related to urban mobility, one of the major challenges cities face today.&lt;/p&gt;
+&lt;p&gt;In this context, the project tackles various urban mobility problems from the perspective of crowdsensing.&lt;/p&gt;
+&lt;p&gt;In short, it aims to generate value-added information from data sensed about the individual mobility of citizens, with the goal of improving collective mobility.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intelligent Advertisement Recommendation for an Online Sales Platform Based on Implicit User Preference Acquisition and Geospatial Conditions</title>
+      <link>/project/2020-sadosky-region-global/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2020-sadosky-region-global/</guid>
+      <description>&lt;p&gt;The project aims to develop a prototype that connects buyers and sellers through an intelligent characterization of each user, considering their short-term preferences and defining geospatial characteristics. This approach enables smart alerts about items of interest within nearby geographic areas.&lt;/p&gt;
+&lt;p&gt;A key focus of the project is ensuring easy adoption by acquiring user knowledge in a non-intrusive way using pre-existing information. Additionally, it emphasizes deducing the geolocation of product and service listings, which is particularly important for individual users who are often reluctant to share such information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building SYMLOG profiles with an online collaborative game</title>
+      <link>/publication/2019-symlog-profiles-online-collaborative-game/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019-symlog-profiles-online-collaborative-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De  &#39;discusión táctica&#39;  en  juego de colaboración a &#39;conductas&#39;: enfoque de clasificación en etapas</title>
+      <link>/publication/2018-iberamia/</link>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-iberamia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Users&#39; Collaborative Behavior With a Serious Game</title>
+      <link>/publication/2018-collaborative-behavior-serious-game/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-collaborative-behavior-serious-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Network Mining for User Recommendation</title>
+      <link>/project/2015-social-mining-user-recommendation/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2015-social-mining-user-recommendation/</guid>
+      <description>&lt;p&gt;The massive and globalized use of social networks has generated an extremely
+large source of constantly updated information, most of which is publicly
+accessible to all users. Due to this ever-growing volume of data, there is a
+need for theories and tools that assist individuals in extracting useful information
+from the data generated by network users, combined with their relationships
+and social interactions. This set of theories and tools corresponds to the
+field of Social Data Mining.&lt;/p&gt;
+&lt;p&gt;In this context, recommending users with specific characteristics is crucial for
+decision-making in various scenarios. For example, identifying expert users or
+those considered sources of information can help generate valuable new connections
+for new users, while identifying influential users can allow the detection of key
+nodes that disseminate information more rapidly. Compared to other domains,
+social networks provide a greater amount of user-related information at a lower cost.&lt;/p&gt;
+&lt;p&gt;Several aspects make social networks particularly interesting for recommendation
+systems. First, users have transitioned from being mere consumers of information
+to becoming producers and disseminators. Millions of people spend a significant
+amount of time on various social media platforms (blogs, social networks,
+specialized forums, etc.), interacting and sharing information online in a
+manner similar to real-world interactions, making social networks a vast source
+of knowledge. Second, users&amp;rsquo; posts and interactions often reflect their interests,
+allowing systems to infer new preferences without requiring direct user
+interaction. Finally, the diverse connections established between users in social
+media platforms can provide a wealth of useful information to enhance the
+recommendation process.&lt;/p&gt;
+&lt;p&gt;The overall objective of this project is to specify, adapt, and apply techniques
+for identifying and recommending users with relevant characteristics to other users
+within the network. These techniques can be applied both in widely used social networks
+and in specialized social networks, such as collaborative work environments,
+computer-supported learning platforms, academic collaboration networks,
+e-commerce sites, and more.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Enhancing the experience of users regarding the email classification task using labels</title>
+      <link>/publication/2014-email-classification/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2014-email-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Followee recommendation based on text analysis of micro-blogging activity</title>
+      <link>/publication/2013-followee-recommendation-information-systems/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2013-followee-recommendation-information-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Profiles for Intelligent Assistance in Computer-Supported Collaborative Work</title>
+      <link>/project/2012-user-modeling-cscw/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2012-user-modeling-cscw/</guid>
+      <description>&lt;p&gt;Systems designed to support teamwork are environments that enable
+and enrich collaboration among different users. These systems
+incorporate techniques that facilitate communication and
+coordination among team members to improve group performance.
+However, not all team members are the same, so it is important
+to study the characteristics and preferences of individuals to
+form more productive and efficient teams. In this project,
+we propose the automatic construction of user profiles in
+collaborative work systems based on the observation of their
+interactions with the system and their teammates,
+with the aim of forming more efficient and productive work groups.&lt;/p&gt;
+&lt;p&gt;These profiles will consist of a combination of different models
+that we consider influential in the formation of work teams,
+describing personality theories, team roles, negotiation skills,
+and social factors. The modeling of personality traits will be
+based on the psychological type theory developed by Myers and
+Briggs, which is one of the most widely used. Team roles are
+patterns of behavior that characterize how a team member
+interacts with others to facilitate team progress. The role
+theory developed by Mumma will be applied. Negotiation and
+argumentation skills will help us understand how each
+individual resolves conflicts and behaves in a group where a
+shared solution must be reached.&lt;/p&gt;
+&lt;p&gt;In the area of social factors, the relationships of each
+person with the rest of the organization members will be
+modeled using Social Network Theory. We consider that the
+different components of the profile can be obtained from
+the data recorded from users&amp;rsquo; interactions with a collaborative
+work environment and their interactions with each other,
+correlating theoretical models with activities that can be
+carried out in these systems, such as participation in forums,
+task completion, use of chats, file sharing, and more. Each of
+these components will be derived through the application of
+Artificial Intelligence techniques, such as Bayesian Networks,
+association rules, and Bayesian classifiers, to the recorded data.&lt;/p&gt;
+&lt;p&gt;Finally, the dynamics of groups and the different ways of
+combining user profiles to form productive teams will be
+studied. As a result of this project, we expect to obtain a
+set of rules that describe the best combinations of user profiles
+for working in groups. These rules will form the basis for the
+development of an intelligent system that will assist managers or
+project leaders in forming more efficient and productive work teams.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Topology-Based Recommendation of Users in Micro-Blogging Communities</title>
+      <link>/publication/2012-topology-followee-recommendation/</link>
+      <pubDate>Tue, 10 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2012-topology-followee-recommendation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personalized detection of user intentions</title>
+      <link>/publication/2011-goal-recognition-kbs/</link>
+      <pubDate>Fri, 16 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2011-goal-recognition-kbs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling sequences of user actions for statistical goal recognition</title>
+      <link>/publication/2011-goal-recognition-umuai/</link>
+      <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2011-goal-recognition-umuai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building respectful interface agents</title>
+      <link>/publication/2010-respectful-interface-agents/</link>
+      <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2010-respectful-interface-agents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plan recognition for interface agents: State of the art</title>
+      <link>/publication/2007-plan-recognition-interface-agents/</link>
+      <pubDate>Wed, 01 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2007-plan-recognition-interface-agents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Bayesian approach to plan recognition for interface agents.</title>
+      <link>/publication/2006-enfoque-bayesiano-iberamia/</link>
+      <pubDate>Tue, 01 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2006-enfoque-bayesiano-iberamia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intelligent Agents for Distance Learning</title>
+      <link>/publication/2003-intelligent-agents-distance-learning/</link>
+      <pubDate>Wed, 15 Oct 2003 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2003-intelligent-agents-distance-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

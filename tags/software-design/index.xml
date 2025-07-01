@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Design on Dr. Marcelo G. Armentano</title>
+    <link>/tags/software-design/</link>
+    <description>Recent content in Software Design on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/software-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Design and Development of Group Recommendation Systems with a Multi-Agent Approach</title>
+      <link>/project/2017-group-recommender-systems/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2017-group-recommender-systems/</guid>
+      <description>&lt;p&gt;Recommendation systems are valuable tools for reducing the information overload that users face when searching for and analyzing data. Consequently, they are increasingly used in the software development market to add value to applications. A recommendation system (RS) can be seen as an intelligent agent that assists a user in filtering items within a certain domain, using various techniques (e.g., user profiles, Artificial Intelligence, Machine Learning) to identify the items that best match the user&amp;rsquo;s preferences or needs.&lt;/p&gt;
+&lt;p&gt;Many RS applications have gained popularity due to the rise of social media platforms and the widespread use of mobile devices. Traditionally, RSs have focused on individual users by analyzing their preference profiles, browsing history, or past searches. In recent years, researchers have started to consider that RS users can also be groups of users, which has led to the development of group recommendation systems (GRS), the central focus of this project.&lt;/p&gt;
+&lt;p&gt;Naturally, GRS techniques are based on extensions of techniques used for individual recommendation systems (IRS). However, a key aspect of a GRS (which goes beyond an IRS) is group decision-making (or social choice), which involves making recommendations that satisfy the group as a whole while addressing potential conflicts among members’ interests.&lt;/p&gt;
+&lt;p&gt;From a software development perspective, it is common practice to start with a solution conceived as an IRS, and later, due to client or business requirements, extend it to group contexts, many of which involve social networks. This presents challenges both in terms of the functionalities to be incorporated into the original IRS and the design decisions required to incrementally build the new GRS from existing software assets.&lt;/p&gt;
+&lt;p&gt;These new functionalities and design decisions affect the quality attributes of the GRS solution, such as performance, information privacy, and distribution, among others. In this context, the project addresses the challenges related to the functional aspects of a GRS (built from one or more IRS) and the software design process for these systems. To achieve this, a multi-agent modeling approach is proposed, applying negotiation mechanisms to achieve balanced recommendations in the GRS.&lt;/p&gt;
+&lt;p&gt;The project will explore techniques and architectures for designing and developing GRS applications that enable the reuse of software assets and the analysis of emerging quality attributes of such applications. This combination is both novel and valuable for the software industry. The research aims to advance the state of the art in GRS construction and provide engineering guidelines and models for developing applications with GRS capabilities.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

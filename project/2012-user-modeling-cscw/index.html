@@ -1,0 +1,2387 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5BS8WK89Z2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5BS8WK89Z2');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="theme-name" content="academia-hugo"/>
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marcelo G. Armentano">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="We propose the automatic construction of user profiles in collaborative work systems based on the observation of their interactions with the system and their teammates, with the aim of forming more efficient and productive work groups.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/project/2012-user-modeling-cscw/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#fc6f5c">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.b246554d075350d61b44c126dfbcbe05.css">
+
+  
+
+  
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/project/2012-user-modeling-cscw/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Dr. Marcelo G. Armentano">
+  <meta property="og:url" content="/project/2012-user-modeling-cscw/">
+  <meta property="og:title" content="User Profiles for Intelligent Assistance in Computer-Supported Collaborative Work | Dr. Marcelo G. Armentano">
+  <meta property="og:description" content="We propose the automatic construction of user profiles in collaborative work systems based on the observation of their interactions with the system and their teammates, with the aim of forming more efficient and productive work groups."><meta property="og:image" content="/project/2012-user-modeling-cscw/featured.webp">
+  <meta property="twitter:image" content="/project/2012-user-modeling-cscw/featured.webp"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2012-10-01T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2012-10-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>User Profiles for Intelligent Assistance in Computer-Supported Collaborative Work | Dr. Marcelo G. Armentano</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+    
+    <a class="navbar-brand" href="/">Dr. Marcelo G. Armentano</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#thesis"><span>Thesis supervision</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#gallery"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article article-project py-5" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container split-header">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+        <img class="img-fluid w-100" src="/project/2012-user-modeling-cscw/featured_hu_26dd53a08f3da5a.webp" itemprop="image" alt="">
+        
+    </div>
+    <div class="col-lg-8">
+      <h1 itemprop="name">User Profiles for Intelligent Assistance in Computer-Supported Collaborative Work</h1>
+
+      
+
+      
+
+
+
+<meta content="2012-10-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2012-10-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Oct 1, 2012</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/project/2012-user-modeling-cscw/&amp;text=User%20Profiles%20for%20Intelligent%20Assistance%20in%20Computer-Supported%20Collaborative%20Work" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/project/2012-user-modeling-cscw/&amp;t=User%20Profiles%20for%20Intelligent%20Assistance%20in%20Computer-Supported%20Collaborative%20Work" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=User%20Profiles%20for%20Intelligent%20Assistance%20in%20Computer-Supported%20Collaborative%20Work&amp;body=/project/2012-user-modeling-cscw/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/project/2012-user-modeling-cscw/&amp;title=User%20Profiles%20for%20Intelligent%20Assistance%20in%20Computer-Supported%20Collaborative%20Work" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=User%20Profiles%20for%20Intelligent%20Assistance%20in%20Computer-Supported%20Collaborative%20Work%20/project/2012-user-modeling-cscw/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/project/2012-user-modeling-cscw/&amp;title=User%20Profiles%20for%20Intelligent%20Assistance%20in%20Computer-Supported%20Collaborative%20Work" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+
+  <div class="article-container">
+    
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/user-modeling/">User Modeling</a>
+  
+  <a class="badge badge-light" href="/tags/cscw/">CSCW</a>
+  
+  <a class="badge badge-light" href="/tags/recommender-systems/">Recommender Systems</a>
+  
+</div>
+
+
+    
+    <div class="article-style" itemprop="articleBody">
+      <p>Systems designed to support teamwork are environments that enable
+and enrich collaboration among different users. These systems
+incorporate techniques that facilitate communication and
+coordination among team members to improve group performance.
+However, not all team members are the same, so it is important
+to study the characteristics and preferences of individuals to
+form more productive and efficient teams. In this project,
+we propose the automatic construction of user profiles in
+collaborative work systems based on the observation of their
+interactions with the system and their teammates,
+with the aim of forming more efficient and productive work groups.</p>
+<p>These profiles will consist of a combination of different models
+that we consider influential in the formation of work teams,
+describing personality theories, team roles, negotiation skills,
+and social factors. The modeling of personality traits will be
+based on the psychological type theory developed by Myers and
+Briggs, which is one of the most widely used. Team roles are
+patterns of behavior that characterize how a team member
+interacts with others to facilitate team progress. The role
+theory developed by Mumma will be applied. Negotiation and
+argumentation skills will help us understand how each
+individual resolves conflicts and behaves in a group where a
+shared solution must be reached.</p>
+<p>In the area of social factors, the relationships of each
+person with the rest of the organization members will be
+modeled using Social Network Theory. We consider that the
+different components of the profile can be obtained from
+the data recorded from users&rsquo; interactions with a collaborative
+work environment and their interactions with each other,
+correlating theoretical models with activities that can be
+carried out in these systems, such as participation in forums,
+task completion, use of chats, file sharing, and more. Each of
+these components will be derived through the application of
+Artificial Intelligence techniques, such as Bayesian Networks,
+association rules, and Bayesian classifiers, to the recorded data.</p>
+<p>Finally, the dynamics of groups and the different ways of
+combining user profiles to form productive teams will be
+studied. As a result of this project, we expect to obtain a
+set of rules that describe the best combinations of user profiles
+for working in groups. These rules will form the basis for the
+development of an intelligent system that will assist managers or
+project leaders in forming more efficient and productive work teams.</p>
+
+    </div>
+    
+
+    
+    
+    <h2>Director</h2>
+    <div class="people-list">
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person" >
+    
+      
+      <img class="portrait mr-3" src="/authors/silvia-schiaffino/avatar_hu_eb2db5589879cc12.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/silvia-schiaffino/">Silvia Schiaffino</a></h5>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=1NsivnkAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.researchgate.net/profile/Silvia-Schiaffino" target="_blank" rel="noopener">
+              <i class="ai ai-researchgate"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/silvia-schiaffino-04b93120b" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0002-7616-9756" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+    </div>
+    
+
+    
+    <h2>Researchers</h2>
+    <div class="people-list">
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person" >
+    
+      
+      <img class="portrait mr-3" src="/authors/daniela-godoy/avatar_hu_bb18785c9e4279fc.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/daniela-godoy/">Daniela Godoy</a></h5>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://x.com/dalgodoy" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com.ar/citations?user=BRLbCLUAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.researchgate.net/profile/Daniela-Godoy-6" target="_blank" rel="noopener">
+              <i class="ai ai-researchgate"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/daniela-godoy-36811013/" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0002-5185-4570" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+    </div>
+    
+
+    
+    <h2>Collaborators</h2>
+    <div class="people-list">
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person" >
+    
+      
+      <img class="portrait mr-3" src="/authors/marcelo-g-armentano/avatar_hu_667dc0438110dfa1.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/">Marcelo G. Armentano</a></h5>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/mg_armentano" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=gk2vmEcAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.researchgate.net/profile/Marcelo-G-Armentano" target="_blank" rel="noopener">
+              <i class="ai ai-researchgate"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/marcelo-g-armentano-44369014/" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0002-9172-9061" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person" >
+    
+      
+      <img class="portrait mr-3" src="/authors/ariel-monteserin/avatar_hu_6339df6a16c9bf8.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/ariel-monteserin/">Ariel Monteserin</a></h5>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=lE3O1RcAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.researchgate.net/profile/Ariel-Monteserin" target="_blank" rel="noopener">
+              <i class="ai ai-researchgate"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/ariel-monteserin-1094361b0/" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0003-0876-2432" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person" >
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/ingrid-christensen/"></a></h5>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+        
+
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    <img class="portrait mr-3" src="/img/default-avatar.png" itemprop="image" alt="Avatar">
+    <div class="media-body">
+        <h5 class="card-title" itemprop="name">Patricio Garcia</h5>
+    </div>
+</div>
+
+
+      
+        
+
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    <img class="portrait mr-3" src="/img/default-avatar.png" itemprop="image" alt="Avatar">
+    <div class="media-body">
+        <h5 class="card-title" itemprop="name">Alejandro Corbellini</h5>
+    </div>
+</div>
+
+
+      
+        
+
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    <img class="portrait mr-3" src="/img/default-avatar.png" itemprop="image" alt="Avatar">
+    <div class="media-body">
+        <h5 class="card-title" itemprop="name">Matías Nicoletti</h5>
+    </div>
+</div>
+
+
+      
+        
+
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    <img class="portrait mr-3" src="/img/default-avatar.png" itemprop="image" alt="Avatar">
+    <div class="media-body">
+        <h5 class="card-title" itemprop="name">Agustín Casamayor</h5>
+    </div>
+</div>
+
+
+      
+        
+
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    <img class="portrait mr-3" src="/img/default-avatar.png" itemprop="image" alt="Avatar">
+    <div class="media-body">
+        <h5 class="card-title" itemprop="name">Victoria Eyharabide</h5>
+    </div>
+</div>
+
+
+      
+    </div>
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    <h2>Publications</h2>
+    <div class="row justify-content-center">
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/2019-symlog-profiles-online-collaborative-game/" itemprop="url">Building SYMLOG profiles with an online collaborative game</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2019-07-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2019-07-05 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/franco-berdun/">Franco Berdun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcelo-g-armentano/">Marcelo G. Armentano</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/luis-berdun/">Luis Berdun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/matias-cincunegui/">Matias Cincunegui</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>July 2019</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      International Journal of Human-Computer Studies
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Collaboration is essential for individuals working in groups to achieve a common goal. The understanding of the collaborative profile of each member of a team is extremely useful to understand and predict his/her performance in future teamwork. Users can demonstrate their collaborative skills on many digital platforms. Among them, video games enable to capture the players’ behavior by the direct observation of their actions, while engaging them in a pleasant activity. In this work, we propose an approach for building collaborative profiles of a group of people working together towards a common goal, using an online game as a shared environment and a well-known theory about groups’ dynamics: SYMLOG. This profile can be useful to know which features each member should train to improve his/her collaborative skills and to predict the performance of the group. We validate our approach with 98 players to evaluate the similarity between the profiles generated by our approach and the profiles derived from the SYMLOG questionnaire, which is the usual tool used with this theory
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/2019-symlog-profiles-online-collaborative-game/manuscript.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2019-symlog-profiles-online-collaborative-game/cite.bib">
+  Bibtex
+</button>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-apa-modal"
+        data-filename="/publication/2019-symlog-profiles-online-collaborative-game/cite.apa">
+  APA
+</button>
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2012-user-modeling-cscw/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.ijhcs.2018.07.002" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+  </div>
+</div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/2018-soploon/" itemprop="url">Soploon: A virtual assistant to help teachers to detect object-oriented errors in students’ source codes</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2018-07-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2018-07-11 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sebastian-vallejos/">Sebastian Vallejos</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/luis-berdun/">Luis Berdun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcelo-g-armentano/">Marcelo G. Armentano</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/alvaro-soria/">Alvaro Soria</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/alfredo-teyseyre/">Alfredo Teyseyre</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>July 2018</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Computer Applications in Engineering Education
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      When checking students´ source codes, teachers tend to overlook some errors. This work introduces Soploon, a tool that automatically detects novice programmer errors. By using this tool, teachers can reduce the number of overlooked errors. Thus, students receive a more complete and exhaustive feedback about their errors and misconceptions.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/2018-soploon/manuscript.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2018-soploon/cite.bib">
+  Bibtex
+</button>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-apa-modal"
+        data-filename="/publication/2018-soploon/cite.apa">
+  APA
+</button>
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2012-user-modeling-cscw/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1002/cae.22021" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+  </div>
+</div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/2018-iberamia/" itemprop="url">De  &#39;discusión táctica&#39;  en  juego de colaboración a &#39;conductas&#39;: enfoque de clasificación en etapas</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2018-03-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2018-03-21 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/franco-berdun/">Franco Berdun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/francisco-serrano/">Francisco Serrano</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcelo-g-armentano/">Marcelo G. Armentano</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>March 2018</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Iberoamerican Journal of Artificial Intelligence
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      The analysis of group dynamics is extremely useful for understanding and predicting the performance of teamworks, since in this context, collaboration problems can naturally arise. Artificial intelligence, and specially machine learning techniques, enables automating the observation process and the analysis of groups of users who use an online collaborative platform. Among the online collaborative platforms available, games are an attractive alternative for all audiences that enable capturing the players&rsquo; behavior by observing their social interactions, while engaging them in a pleasant activity. In this paper, we present experimental results of classifying observed conversations in an online game to collaborative behaviors, guided by the Interaction Process Analysis, a theory for categorizing social interactions. The proposed automation of the classification process can be used to assist teachers or team leaders to detect alterations in the balance of group reactions and to improve their performance by indicating actions to improve the balance.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/2018-iberamia/manuscript.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2018-iberamia/cite.bib">
+  Bibtex
+</button>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-apa-modal"
+        data-filename="/publication/2018-iberamia/cite.apa">
+  APA
+</button>
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2012-user-modeling-cscw/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.4114/intartif.vol21iss61pp82-94" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+  </div>
+</div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/2018-classification-collaborative-behavior-text/" itemprop="url">Classification of collaborative behavior from free text interactions</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2018-01-22 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2018-01-22 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/franco-berdun/">Franco Berdun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcelo-g-armentano/">Marcelo G. Armentano</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/luis-berdun/">Luis Berdun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/martin-mineo/">Martin Mineo</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>January 2018</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Computers &amp; Electrical Engineering
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      In a computer-supported collaborative work (CSCW) environment, a group of people can work together to fulfill a given assignment. In this context, collaborative problems might naturally arise. The detection of these problems is extremely important for teachers or team leaders to help the team members to improve their collaborative skills and the resolution of the collaboration problems. The observation and analysis of the interaction process of several groups is a time-consuming and difficult task for any teacher or team leader. In this article, we propose a multi-phase classification approach to automatically classify free text observed form the chat of a CSCW environment into different collaborative categories of behavior. We obtained promising results that can be used to help teachers or team leaders with the interaction process analysis in order to focus only in the resolution?s actions of the problems that might arise.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/2018-classification-collaborative-behavior-text/manuscript.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2018-classification-collaborative-behavior-text/cite.bib">
+  Bibtex
+</button>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-apa-modal"
+        data-filename="/publication/2018-classification-collaborative-behavior-text/cite.apa">
+  APA
+</button>
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2012-user-modeling-cscw/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.compeleceng.2017.07.015" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+  </div>
+</div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/2018-collaborative-behavior-serious-game/" itemprop="url">Modeling Users&#39; Collaborative Behavior With a Serious Game</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2018-01-22 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2018-01-22 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/franco-berdun/">Franco Berdun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcelo-g-armentano/">Marcelo G. Armentano</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>January 2018</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      IEEE Transactions on Games
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      User modeling is an important area in the field of artificial intelligence. Traditionally, user modeling approaches have focused on individual features of users, leaving aside aspects of users as part of a group. However, in enterprise, academic, or political contexts, it is common to find groups of people working together to solve a collaborative task using online collaborative platforms. In this context, counting with a knowledge based on describing the users&rsquo; behavior when working in a group (i.e., the collaborative profile) is vital for a system aiming at assisting them to enhance their collaborative abilities that might impact the group dynamics. Traditionally, collaborative abilities have been measured by means of questionnaires or by an external human observer. In this work, we propose an approach to build collaborative profiles by the means of observation of users&rsquo; behavior in a collaborative serious game. The main advantage of our approach is that it avoids external human observers of the group dynamics and the use of self-perception questionnaires. We obtained promising results when comparing the user profiles obtained with our approach with respect to the classical measurement instruments.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/2018-collaborative-behavior-serious-game/manuscript.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2018-collaborative-behavior-serious-game/cite.bib">
+  Bibtex
+</button>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-apa-modal"
+        data-filename="/publication/2018-collaborative-behavior-serious-game/cite.apa">
+  APA
+</button>
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2012-user-modeling-cscw/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/TG.2018.2794419" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+  </div>
+</div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/2016-evolutionary/" itemprop="url">A Steady-State Evolutionary Algorithm for Building Collaborative Learning Teams in Educational Environments Considering the Understanding Levels and Interest Levels of the Students</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2016-01-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2016-01-10 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/virginia-yannibelli/">Virginia Yannibelli</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcelo-g-armentano/">Marcelo G. Armentano</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/franco-berdun/">Franco Berdun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/analia-amandi/">Analia Amandi</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>January 2016</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Journal of Universal Computer Science
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Collaborative learning team building is a fundamental, difficult and time-consuming task in educational environments. In this paper, we address a collaborative learning team building problem that considers two valuable grouping criteria usually considered by teachers. One of these criteria considers the understanding levels of the students with respect of the topics of a given course, and is based on building well-balanced teams in terms of the understanding levels of their members. The other criterion considers the interest levels of the students with respect of the topics of a given course, and is based on building well-balanced teams in terms of the interest levels of their members. The problem addressed has been recognised as an NP-Hard optimization problem. To solve the problem, we propose a steady-state evolutionary algorithm. This algorithm aims to organize the students taking a given course into teams in such a way that the two grouping criteria of the problem are optimized. The performance of the algorithm is evaluated on nine problem instances with different levels of complexity, and is compared with that of the only algorithm previously proposed for solving the addressed problem. The obtained results show that the steady-state evolutionary algorithm significantly outperforms the previous algorithm.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/2016-evolutionary/manuscript.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2016-evolutionary/cite.bib">
+  Bibtex
+</button>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-apa-modal"
+        data-filename="/publication/2016-evolutionary/cite.apa">
+  APA
+</button>
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2012-user-modeling-cscw/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3217/jucs-022-10-1298" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+  </div>
+</div>
+      
+      
+      
+    </div>
+
+    
+    
+    
+    </div>
+
+
+  </div>
+</article>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//themefisher-template.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academia.min.64a1fdbe7646fec4e8639e28b41fe8a1.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        
+        <p class="mb-0">
+          Copyright © 2025 &middot; 
+          Powered by
+          <a href="https://gethugothemes.com" target="_blank" rel="noopener">Gethugothemes</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right mb-0">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/mg_armentano" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://instagram.com/marcelo.armentano" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Bibtex</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

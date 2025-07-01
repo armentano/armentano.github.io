@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on Dr. Marcelo G. Armentano</title>
+    <link>/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Wed, 27 Dec 2023 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Predicting future sedentary behaviour using wearable and mobile devices</title>
+      <link>/publication/2022-predicting-sedentary-behavior/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2022-predicting-sedentary-behavior/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sedentary Behavior Prediction Based on Lifelogging Data Analysis</title>
+      <link>/thesis/2021-santillan/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2021-santillan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mining Social Networks to Detect Traffic Incidents</title>
+      <link>/publication/2021-mining-social-networks-traffic-incidents/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2021-mining-social-networks-traffic-incidents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bitcoin Value Trend Detection Approach Based on the Observation of Social Media Impact</title>
+      <link>/thesis/2020-ojeda/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2020-ojeda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intelligent Advertisement Recommendation for an Online Sales Platform Based on Implicit User Preference Acquisition and Geospatial Conditions</title>
+      <link>/project/2020-sadosky-region-global/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2020-sadosky-region-global/</guid>
+      <description>&lt;p&gt;The project aims to develop a prototype that connects buyers and sellers through an intelligent characterization of each user, considering their short-term preferences and defining geospatial characteristics. This approach enables smart alerts about items of interest within nearby geographic areas.&lt;/p&gt;
+&lt;p&gt;A key focus of the project is ensuring easy adoption by acquiring user knowledge in a non-intrusive way using pre-existing information. Additionally, it emphasizes deducing the geolocation of product and service listings, which is particularly important for individual users who are often reluctant to share such information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intelligent Assistance for Inferring User Roles in Computer-Supported Collaborative Work</title>
+      <link>/thesis/2018-dachilli-colacci/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2018-dachilli-colacci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Approach for the Automatic Detection of Flaws in Argument Construction</title>
+      <link>/thesis/2018-arbiza-gareis/</link>
+      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2018-arbiza-gareis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classification of collaborative behavior from free text interactions</title>
+      <link>/publication/2018-classification-collaborative-behavior-text/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-classification-collaborative-behavior-text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recommender System for Decision-Making in Binary Options Trading</title>
+      <link>/project/2017-binary-trading-recommender/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2017-binary-trading-recommender/</guid>
+      <description>&lt;p&gt;Platforms for binary options trading and long-term stock trading are abundant in the market. However, there is no intelligent adjustment operation for binary options based on a community model of users grouped under social network models. Similarly, there are no platforms on the market with bots for short-term volatility placement or user grouping to analyze behavior using social graph methods.&lt;/p&gt;
+&lt;p&gt;This project aims to develop a prototype algorithm to analyze the specific market conditions of binary options and trading based on the concept of short-term volatility. In both cases, the algorithm will be capable of predicting how to invest efficiently within an active and identified community.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Genre classification of symbolic pieces of music</title>
+      <link>/publication/2016-music-classification/</link>
+      <pubDate>Thu, 22 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-music-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Group Recommendation in the Tourism Domain</title>
+      <link>/publication/2016-social-group-recommendation-turism/</link>
+      <pubDate>Mon, 28 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-social-group-recommendation-turism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Steady-State Evolutionary Algorithm for Building Collaborative Learning Teams in Educational Environments Considering the Understanding Levels and Interest Levels of the Students</title>
+      <link>/publication/2016-evolutionary/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-evolutionary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing the experience of users regarding the email classification task using labels</title>
+      <link>/publication/2014-email-classification/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2014-email-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Followee recommendation based on text analysis of micro-blogging activity</title>
+      <link>/publication/2013-followee-recommendation-information-systems/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2013-followee-recommendation-information-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intention Recognition for Assisting Users on the Web</title>
+      <link>/project/2012-intention-recognition-web/</link>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2012-intention-recognition-web/</guid>
+      <description>&lt;p&gt;In an environment like the Web, where users have access to a vast number of heterogeneous information sources, it is crucial to provide advanced solutions for acquiring, mediating, and maintaining relevant information. In such a setting, users often engage in repetitive tasks such as browsing, filtering, and searching for relevant content. This scenario presents research challenges in developing mechanisms to analyze user behavior on the Web and detect patterns that can predict user intentions within this environment.&lt;/p&gt;
+&lt;p&gt;At first glance, web browsing may seem like a simple and intuitive task. However, users frequently encounter difficulties in finding the information or services they seek using conventional search engines and directories, as well as in returning to previously visited websites. A common issue with web search engines is that many users struggle to formulate queries that will lead them to the information they are looking for. Additionally, search results often contain an overwhelming number of irrelevant items that do not align with the user&amp;rsquo;s true search intent.&lt;/p&gt;
+&lt;p&gt;This project aims to study mechanisms for detecting user intentions to provide proactive assistance that helps users achieve their goals. To accomplish this, we propose a hybrid technique that combines both the analysis of the sequence of web pages or documents visited by the user and the content of those pages or documents.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intention Recognition for the Organizational Memory</title>
+      <link>/project/2012-intention-recognition-organizations/</link>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2012-intention-recognition-organizations/</guid>
+      <description>&lt;p&gt;Appropriately managing an organization&amp;rsquo;s knowledge is crucial because a significant portion of it is volatile, as it resides within individuals. This phenomenon leads to what is known as corporate amnesia, a problem characterized by the regular loss of organizational knowledge and experience. The collection of this knowledge and experience, which defines the way an organization operates, is referred to as Organizational Memory.&lt;/p&gt;
+&lt;p&gt;In its essence, organizational memory consists of the organization&amp;rsquo;s documentation and the objects or artifacts stored in the corporate library or electronic database, which can be accessed by employees familiar with the organization&amp;rsquo;s specific events and experiences. Both explicit knowledge (physical evidence) and implicit knowledge (more abstract, mental evidence) are essential for effective decision-making, learning from past experiences, and striving to replicate successful situations while avoiding past mistakes.&lt;/p&gt;
+&lt;p&gt;The objective of this project is to analyze, design, and implement techniques that enable the semi-automatic generation of a model of the activities carried out by an organization&amp;rsquo;s employees. This model will allow for tracking ongoing activities at any given moment and identifying employee behaviors that deviate from typical patterns.&lt;/p&gt;
+&lt;p&gt;To achieve this, the project proposes the definition, implementation, and evaluation of new intelligent recommendation methods and techniques that provide active assistance to employees whose behavior does not align with expected patterns. We propose a learning algorithm based on Variable-Order Markov Models that will acquire a model of the intentions an employee may have within the organization. This algorithm will be based on observing the tasks an employee performs and the intentions motivating those tasks.&lt;/p&gt;
+&lt;p&gt;The learning algorithm will construct a model of the tasks necessary to achieve various objectives within the organization, ensuring that this knowledge persists within the company, thereby contributing to its organizational memory. This model will then be used to detect an employee&amp;rsquo;s intention at a given moment and identify deviations from expected behavior.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Topology-Based Recommendation of Users in Micro-Blogging Communities</title>
+      <link>/publication/2012-topology-followee-recommendation/</link>
+      <pubDate>Tue, 10 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2012-topology-followee-recommendation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

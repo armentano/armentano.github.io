@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dra. on Dr. Marcelo G. Armentano</title>
+    <link>/authors/daniela-godoy/</link>
+    <description>Recent content in Dra. on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/daniela-godoy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prediction of the next user location using personal tracking data</title>
+      <link>/publication/2025-prediction-next-visit-eswa/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2025-prediction-next-visit-eswa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Lightweight Approach for Building User Mobility Profiles</title>
+      <link>/publication/2023-lightweight-approach/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2023-lightweight-approach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP-Based Faceted Search: Experience in the Development of a Science and Technology Search Engine</title>
+      <link>/publication/2014-nlp-faceted-search/</link>
+      <pubDate>Sun, 11 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2014-nlp-faceted-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Followee recommendation based on text analysis of micro-blogging activity</title>
+      <link>/publication/2013-followee-recommendation-information-systems/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2013-followee-recommendation-information-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topology-Based Recommendation of Users in Micro-Blogging Communities</title>
+      <link>/publication/2012-topology-followee-recommendation/</link>
+      <pubDate>Tue, 10 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2012-topology-followee-recommendation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal assistants: Direct manipulation vs. mixed initiative interfaces</title>
+      <link>/publication/2006-personal-assistants/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2006-personal-assistants/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

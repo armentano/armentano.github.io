@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Franco Berdun on Dr. Marcelo G. Armentano</title>
+    <link>/authors/franco-berdun/</link>
+    <description>Recent content in Franco Berdun on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/franco-berdun/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building SYMLOG profiles with an online collaborative game</title>
+      <link>/publication/2019-symlog-profiles-online-collaborative-game/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019-symlog-profiles-online-collaborative-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De  &#39;discusión táctica&#39;  en  juego de colaboración a &#39;conductas&#39;: enfoque de clasificación en etapas</title>
+      <link>/publication/2018-iberamia/</link>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-iberamia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classification of collaborative behavior from free text interactions</title>
+      <link>/publication/2018-classification-collaborative-behavior-text/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-classification-collaborative-behavior-text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Users&#39; Collaborative Behavior With a Serious Game</title>
+      <link>/publication/2018-collaborative-behavior-serious-game/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-collaborative-behavior-serious-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Steady-State Evolutionary Algorithm for Building Collaborative Learning Teams in Educational Environments Considering the Understanding Levels and Interest Levels of the Students</title>
+      <link>/publication/2016-evolutionary/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-evolutionary/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

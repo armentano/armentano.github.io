@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recommender Systems on Dr. Marcelo G. Armentano</title>
+    <link>/tags/recommender-systems/</link>
+    <description>Recent content in Recommender Systems on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/recommender-systems/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prediction of the next user location using personal tracking data</title>
+      <link>/publication/2025-prediction-next-visit-eswa/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2025-prediction-next-visit-eswa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Harm-Aware Recommendation Systems in Social Networks</title>
+      <link>/project/2022-online-harm-aware-recsys/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2022-online-harm-aware-recsys/</guid>
+      <description>&lt;p&gt;The spread of disinformation and hate speech on social media via the Internet has become a critical global issue. In recent years, there has been a notable increase in both the dissemination of fake news, rumors, deception, and other forms of disinformation, as well as the use of abusive language, incitement to violence, harassment, and other types of hate speech. Both aspects contribute to what is known as &amp;ldquo;online harm,&amp;rdquo; which can have potentially severe consequences for individuals and society, ranging from public health issues to the disruption of democratic systems.&lt;/p&gt;
+&lt;p&gt;This project focuses on defining new algorithms and recommendation systems aimed at mitigating the negative effects of harmful online content. The main objectives of this project are:&lt;/p&gt;
+&lt;p&gt;Defining new methods for learning user profiles that model their preferences and behavior regarding malicious content by analyzing heterogeneous information from social media platforms.
+Defining and categorizing users based on their role in the spread of online harm.
+Designing novel harm-aware recommendation system approaches that incorporate mechanisms to counteract the effects of harmful content in social networks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HelpMePublish - A Support Tool for Selecting Scientific Journals</title>
+      <link>/thesis/2022-elizalde-leiva/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2022-elizalde-leiva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bitcoin Value Trend Detection Approach Based on the Observation of Social Media Impact</title>
+      <link>/thesis/2020-ojeda/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2020-ojeda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intelligent Advertisement Recommendation for an Online Sales Platform Based on Implicit User Preference Acquisition and Geospatial Conditions</title>
+      <link>/project/2020-sadosky-region-global/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2020-sadosky-region-global/</guid>
+      <description>&lt;p&gt;The project aims to develop a prototype that connects buyers and sellers through an intelligent characterization of each user, considering their short-term preferences and defining geospatial characteristics. This approach enables smart alerts about items of interest within nearby geographic areas.&lt;/p&gt;
+&lt;p&gt;A key focus of the project is ensuring easy adoption by acquiring user knowledge in a non-intrusive way using pre-existing information. Additionally, it emphasizes deducing the geolocation of product and service listings, which is particularly important for individual users who are often reluctant to share such information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recommender System for Decision-Making in Binary Options Trading</title>
+      <link>/project/2017-binary-trading-recommender/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2017-binary-trading-recommender/</guid>
+      <description>&lt;p&gt;Platforms for binary options trading and long-term stock trading are abundant in the market. However, there is no intelligent adjustment operation for binary options based on a community model of users grouped under social network models. Similarly, there are no platforms on the market with bots for short-term volatility placement or user grouping to analyze behavior using social graph methods.&lt;/p&gt;
+&lt;p&gt;This project aims to develop a prototype algorithm to analyze the specific market conditions of binary options and trading based on the concept of short-term volatility. In both cases, the algorithm will be capable of predicting how to invest efficiently within an active and identified community.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Design and Development of Group Recommendation Systems with a Multi-Agent Approach</title>
+      <link>/project/2017-group-recommender-systems/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2017-group-recommender-systems/</guid>
+      <description>&lt;p&gt;Recommendation systems are valuable tools for reducing the information overload that users face when searching for and analyzing data. Consequently, they are increasingly used in the software development market to add value to applications. A recommendation system (RS) can be seen as an intelligent agent that assists a user in filtering items within a certain domain, using various techniques (e.g., user profiles, Artificial Intelligence, Machine Learning) to identify the items that best match the user&amp;rsquo;s preferences or needs.&lt;/p&gt;
+&lt;p&gt;Many RS applications have gained popularity due to the rise of social media platforms and the widespread use of mobile devices. Traditionally, RSs have focused on individual users by analyzing their preference profiles, browsing history, or past searches. In recent years, researchers have started to consider that RS users can also be groups of users, which has led to the development of group recommendation systems (GRS), the central focus of this project.&lt;/p&gt;
+&lt;p&gt;Naturally, GRS techniques are based on extensions of techniques used for individual recommendation systems (IRS). However, a key aspect of a GRS (which goes beyond an IRS) is group decision-making (or social choice), which involves making recommendations that satisfy the group as a whole while addressing potential conflicts among members’ interests.&lt;/p&gt;
+&lt;p&gt;From a software development perspective, it is common practice to start with a solution conceived as an IRS, and later, due to client or business requirements, extend it to group contexts, many of which involve social networks. This presents challenges both in terms of the functionalities to be incorporated into the original IRS and the design decisions required to incrementally build the new GRS from existing software assets.&lt;/p&gt;
+&lt;p&gt;These new functionalities and design decisions affect the quality attributes of the GRS solution, such as performance, information privacy, and distribution, among others. In this context, the project addresses the challenges related to the functional aspects of a GRS (built from one or more IRS) and the software design process for these systems. To achieve this, a multi-agent modeling approach is proposed, applying negotiation mechanisms to achieve balanced recommendations in the GRS.&lt;/p&gt;
+&lt;p&gt;The project will explore techniques and architectures for designing and developing GRS applications that enable the reuse of software assets and the analysis of emerging quality attributes of such applications. This combination is both novel and valuable for the software industry. The research aims to advance the state of the art in GRS construction and provide engineering guidelines and models for developing applications with GRS capabilities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Social Network Mining for User Recommendation</title>
+      <link>/project/2015-social-mining-user-recommendation/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2015-social-mining-user-recommendation/</guid>
+      <description>&lt;p&gt;The massive and globalized use of social networks has generated an extremely
+large source of constantly updated information, most of which is publicly
+accessible to all users. Due to this ever-growing volume of data, there is a
+need for theories and tools that assist individuals in extracting useful information
+from the data generated by network users, combined with their relationships
+and social interactions. This set of theories and tools corresponds to the
+field of Social Data Mining.&lt;/p&gt;
+&lt;p&gt;In this context, recommending users with specific characteristics is crucial for
+decision-making in various scenarios. For example, identifying expert users or
+those considered sources of information can help generate valuable new connections
+for new users, while identifying influential users can allow the detection of key
+nodes that disseminate information more rapidly. Compared to other domains,
+social networks provide a greater amount of user-related information at a lower cost.&lt;/p&gt;
+&lt;p&gt;Several aspects make social networks particularly interesting for recommendation
+systems. First, users have transitioned from being mere consumers of information
+to becoming producers and disseminators. Millions of people spend a significant
+amount of time on various social media platforms (blogs, social networks,
+specialized forums, etc.), interacting and sharing information online in a
+manner similar to real-world interactions, making social networks a vast source
+of knowledge. Second, users&amp;rsquo; posts and interactions often reflect their interests,
+allowing systems to infer new preferences without requiring direct user
+interaction. Finally, the diverse connections established between users in social
+media platforms can provide a wealth of useful information to enhance the
+recommendation process.&lt;/p&gt;
+&lt;p&gt;The overall objective of this project is to specify, adapt, and apply techniques
+for identifying and recommending users with relevant characteristics to other users
+within the network. These techniques can be applied both in widely used social networks
+and in specialized social networks, such as collaborative work environments,
+computer-supported learning platforms, academic collaboration networks,
+e-commerce sites, and more.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Applying the Technology Acceptance Model to Evaluation of Recommender Systems</title>
+      <link>/publication/2015-tam-polibits/</link>
+      <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2015-tam-polibits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing the experience of users regarding the email classification task using labels</title>
+      <link>/publication/2014-email-classification/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2014-email-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Followee recommendation based on text analysis of micro-blogging activity</title>
+      <link>/publication/2013-followee-recommendation-information-systems/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2013-followee-recommendation-information-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Profiles for Intelligent Assistance in Computer-Supported Collaborative Work</title>
+      <link>/project/2012-user-modeling-cscw/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2012-user-modeling-cscw/</guid>
+      <description>&lt;p&gt;Systems designed to support teamwork are environments that enable
+and enrich collaboration among different users. These systems
+incorporate techniques that facilitate communication and
+coordination among team members to improve group performance.
+However, not all team members are the same, so it is important
+to study the characteristics and preferences of individuals to
+form more productive and efficient teams. In this project,
+we propose the automatic construction of user profiles in
+collaborative work systems based on the observation of their
+interactions with the system and their teammates,
+with the aim of forming more efficient and productive work groups.&lt;/p&gt;
+&lt;p&gt;These profiles will consist of a combination of different models
+that we consider influential in the formation of work teams,
+describing personality theories, team roles, negotiation skills,
+and social factors. The modeling of personality traits will be
+based on the psychological type theory developed by Myers and
+Briggs, which is one of the most widely used. Team roles are
+patterns of behavior that characterize how a team member
+interacts with others to facilitate team progress. The role
+theory developed by Mumma will be applied. Negotiation and
+argumentation skills will help us understand how each
+individual resolves conflicts and behaves in a group where a
+shared solution must be reached.&lt;/p&gt;
+&lt;p&gt;In the area of social factors, the relationships of each
+person with the rest of the organization members will be
+modeled using Social Network Theory. We consider that the
+different components of the profile can be obtained from
+the data recorded from users&amp;rsquo; interactions with a collaborative
+work environment and their interactions with each other,
+correlating theoretical models with activities that can be
+carried out in these systems, such as participation in forums,
+task completion, use of chats, file sharing, and more. Each of
+these components will be derived through the application of
+Artificial Intelligence techniques, such as Bayesian Networks,
+association rules, and Bayesian classifiers, to the recorded data.&lt;/p&gt;
+&lt;p&gt;Finally, the dynamics of groups and the different ways of
+combining user profiles to form productive teams will be
+studied. As a result of this project, we expect to obtain a
+set of rules that describe the best combinations of user profiles
+for working in groups. These rules will form the basis for the
+development of an intelligent system that will assist managers or
+project leaders in forming more efficient and productive work teams.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intention Recognition for Assisting Users on the Web</title>
+      <link>/project/2012-intention-recognition-web/</link>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2012-intention-recognition-web/</guid>
+      <description>&lt;p&gt;In an environment like the Web, where users have access to a vast number of heterogeneous information sources, it is crucial to provide advanced solutions for acquiring, mediating, and maintaining relevant information. In such a setting, users often engage in repetitive tasks such as browsing, filtering, and searching for relevant content. This scenario presents research challenges in developing mechanisms to analyze user behavior on the Web and detect patterns that can predict user intentions within this environment.&lt;/p&gt;
+&lt;p&gt;At first glance, web browsing may seem like a simple and intuitive task. However, users frequently encounter difficulties in finding the information or services they seek using conventional search engines and directories, as well as in returning to previously visited websites. A common issue with web search engines is that many users struggle to formulate queries that will lead them to the information they are looking for. Additionally, search results often contain an overwhelming number of irrelevant items that do not align with the user&amp;rsquo;s true search intent.&lt;/p&gt;
+&lt;p&gt;This project aims to study mechanisms for detecting user intentions to provide proactive assistance that helps users achieve their goals. To accomplish this, we propose a hybrid technique that combines both the analysis of the sequence of web pages or documents visited by the user and the content of those pages or documents.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Topology-Based Recommendation of Users in Micro-Blogging Communities</title>
+      <link>/publication/2012-topology-followee-recommendation/</link>
+      <pubDate>Tue, 10 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2012-topology-followee-recommendation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

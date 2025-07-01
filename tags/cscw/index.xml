@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSCW on Dr. Marcelo G. Armentano</title>
+    <link>/tags/cscw/</link>
+    <description>Recent content in CSCW on Dr. Marcelo G. Armentano</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/cscw/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building SYMLOG profiles with an online collaborative game</title>
+      <link>/publication/2019-symlog-profiles-online-collaborative-game/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019-symlog-profiles-online-collaborative-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intelligent Assistance for Inferring User Roles in Computer-Supported Collaborative Work</title>
+      <link>/thesis/2018-dachilli-colacci/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2018-dachilli-colacci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Approach for the Automatic Detection of Flaws in Argument Construction</title>
+      <link>/thesis/2018-arbiza-gareis/</link>
+      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/thesis/2018-arbiza-gareis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De  &#39;discusión táctica&#39;  en  juego de colaboración a &#39;conductas&#39;: enfoque de clasificación en etapas</title>
+      <link>/publication/2018-iberamia/</link>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-iberamia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classification of collaborative behavior from free text interactions</title>
+      <link>/publication/2018-classification-collaborative-behavior-text/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-classification-collaborative-behavior-text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Users&#39; Collaborative Behavior With a Serious Game</title>
+      <link>/publication/2018-collaborative-behavior-serious-game/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-collaborative-behavior-serious-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Group Recommendation in the Tourism Domain</title>
+      <link>/publication/2016-social-group-recommendation-turism/</link>
+      <pubDate>Mon, 28 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-social-group-recommendation-turism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Steady-State Evolutionary Algorithm for Building Collaborative Learning Teams in Educational Environments Considering the Understanding Levels and Interest Levels of the Students</title>
+      <link>/publication/2016-evolutionary/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-evolutionary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Profiles for Intelligent Assistance in Computer-Supported Collaborative Work</title>
+      <link>/project/2012-user-modeling-cscw/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2012-user-modeling-cscw/</guid>
+      <description>&lt;p&gt;Systems designed to support teamwork are environments that enable
+and enrich collaboration among different users. These systems
+incorporate techniques that facilitate communication and
+coordination among team members to improve group performance.
+However, not all team members are the same, so it is important
+to study the characteristics and preferences of individuals to
+form more productive and efficient teams. In this project,
+we propose the automatic construction of user profiles in
+collaborative work systems based on the observation of their
+interactions with the system and their teammates,
+with the aim of forming more efficient and productive work groups.&lt;/p&gt;
+&lt;p&gt;These profiles will consist of a combination of different models
+that we consider influential in the formation of work teams,
+describing personality theories, team roles, negotiation skills,
+and social factors. The modeling of personality traits will be
+based on the psychological type theory developed by Myers and
+Briggs, which is one of the most widely used. Team roles are
+patterns of behavior that characterize how a team member
+interacts with others to facilitate team progress. The role
+theory developed by Mumma will be applied. Negotiation and
+argumentation skills will help us understand how each
+individual resolves conflicts and behaves in a group where a
+shared solution must be reached.&lt;/p&gt;
+&lt;p&gt;In the area of social factors, the relationships of each
+person with the rest of the organization members will be
+modeled using Social Network Theory. We consider that the
+different components of the profile can be obtained from
+the data recorded from users&amp;rsquo; interactions with a collaborative
+work environment and their interactions with each other,
+correlating theoretical models with activities that can be
+carried out in these systems, such as participation in forums,
+task completion, use of chats, file sharing, and more. Each of
+these components will be derived through the application of
+Artificial Intelligence techniques, such as Bayesian Networks,
+association rules, and Bayesian classifiers, to the recorded data.&lt;/p&gt;
+&lt;p&gt;Finally, the dynamics of groups and the different ways of
+combining user profiles to form productive teams will be
+studied. As a result of this project, we expect to obtain a
+set of rules that describe the best combinations of user profiles
+for working in groups. These rules will form the basis for the
+development of an intelligent system that will assist managers or
+project leaders in forming more efficient and productive work teams.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
