@@ -7,10 +7,37 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jul 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Crowdsensing</title>
+      <link>/tags/crowdsensing/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/crowdsensing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geo-Referenced Social Networks</title>
+      <link>/tags/geo-referenced-social-networks/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/geo-referenced-social-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Urban Computing</title>
+      <link>/tags/urban-computing/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/urban-computing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Geoinformatics</title>
@@ -49,38 +76,11 @@
     </item>
     
     <item>
-      <title>Urban Computing</title>
-      <link>/tags/urban-computing/</link>
-      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/urban-computing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>User Modeling</title>
       <link>/tags/user-modeling/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
       
       <guid>/tags/user-modeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Crowdsensing</title>
-      <link>/tags/crowdsensing/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/crowdsensing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Geo-Referenced Social Networks</title>
-      <link>/tags/geo-referenced-social-networks/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/geo-referenced-social-networks/</guid>
       <description></description>
     </item>
     
