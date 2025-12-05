@@ -7,7 +7,7 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -66,6 +66,33 @@
     </item>
     
     <item>
+      <title>Ing.</title>
+      <link>/authors/_leonel-leguizamon/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/_leonel-leguizamon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ing.</title>
+      <link>/authors/_ximena-elgart/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/_ximena-elgart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ing.</title>
+      <link>/authors/_nahuel-negretti/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/_nahuel-negretti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dr.</title>
       <link>/authors/sebastian-vallejos/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
@@ -78,11 +105,11 @@
     </item>
     
     <item>
-      <title>Dr.</title>
-      <link>/authors/_franco-berdun/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Ing.</title>
+      <link>/authors/_nicolas-miccio-palermo/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>/authors/_franco-berdun/</guid>
+      <guid>/authors/_nicolas-miccio-palermo/</guid>
       <description></description>
     </item>
     
@@ -97,11 +124,11 @@
     </item>
     
     <item>
-      <title>Ing.</title>
-      <link>/authors/_nahuel-negretti/</link>
+      <title>Dr.</title>
+      <link>/authors/_franco-berdun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/authors/_nahuel-negretti/</guid>
+      <guid>/authors/_franco-berdun/</guid>
       <description></description>
     </item>
     
