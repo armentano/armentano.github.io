@@ -126,7 +126,7 @@
     <item>
       <title>Dr.</title>
       <link>/authors/_franco-berdun/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/_franco-berdun/</guid>
       <description></description>
@@ -234,15 +234,6 @@ Research interests: Data Science, Data Mining, Business Intelligence, Knowledge 
     </item>
     
     <item>
-      <title>Franco Berdun</title>
-      <link>/authors/franco-berdun/</link>
-      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/franco-berdun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Matias Cincunegui</title>
       <link>/authors/matias-cincunegui/</link>
       <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
@@ -257,6 +248,15 @@ Research interests: Data Science, Data Mining, Business Intelligence, Knowledge 
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/authors/francisco-serrano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Franco Berdun</title>
+      <link>/authors/franco-berdun/</link>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/franco-berdun/</guid>
       <description></description>
     </item>
     

@@ -62,6 +62,7 @@
     <loc>/authors/hector-salas/</loc>
   </url><url>
     <loc>/authors/_franco-berdun/</loc>
+    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/alfredo-teyseyre/</loc>
     <lastmod>2018-07-11T00:00:00+00:00</lastmod>
@@ -279,9 +280,6 @@
     <loc>/tags/cscw/</loc>
     <lastmod>2019-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/franco-berdun/</loc>
-    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/authors/matias-cincunegui/</loc>
     <lastmod>2019-07-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -346,6 +344,9 @@
     <lastmod>2018-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/francisco-serrano/</loc>
+    <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/franco-berdun/</loc>
     <lastmod>2018-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/2018-classification-collaborative-behavior-text/</loc>
