@@ -7,7 +7,7 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -68,9 +68,18 @@
     <item>
       <title>Ing.</title>
       <link>/authors/_agustin-freire/</link>
-      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>/authors/_agustin-freire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ing.</title>
+      <link>/authors/_felipe-serrano/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/_felipe-serrano/</guid>
       <description></description>
     </item>
     
